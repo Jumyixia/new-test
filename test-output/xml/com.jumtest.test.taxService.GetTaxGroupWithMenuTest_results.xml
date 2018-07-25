@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="boss-api-testing"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.495">
+  <properties />
+  
+  
+            <testcase name="testGetTaxGroupWithMenu_ryuan" time="0.019" classname="com.jumtest.test.taxService.GetTaxGroupWithMenuTest" />
+                <testcase name="testGetTaxGroupWithMenu_ryuan" time="0.044" classname="com.jumtest.test.taxService.GetTaxGroupWithMenuTest" />
+                <testcase name="testGetTaxGroupWithMenu_ryuan" time="1.091" classname="com.jumtest.test.taxService.GetTaxGroupWithMenuTest" />
+                <testcase name="testGetTaxGroupWithMenu_ryuan" time="1.341" classname="com.jumtest.test.taxService.GetTaxGroupWithMenuTest" />
+                <testcase name="test1" time="0.000" classname="com.jumtest.test.taxService.GetTaxGroupWithMenuTest" />
+      
+</testsuite>

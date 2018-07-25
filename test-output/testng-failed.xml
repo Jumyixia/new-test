@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+  </listeners>
+  <test verbose="2" name="boss-api-testing">
+    <packages>
+      <package name="com.jumtest.*"/>
+    </packages>
+    <classes>
+      <class name="com.jumtest.test.video.test"/>
+      <class name="com.jumtest.test.video.ListShopFieldTest"/>
+      <class name="com.jumtest.test.test"/>
+      <class name="com.jumtest.test.taxService.GetTaxGroupWithMenuTest"/>
+      <class name="com.jumtest.testbase.Constants"/>
+      <class name="com.jumtest.testbase.TestBase"/>
+    </classes>
+  </test> <!-- boss-api-testing -->
+  <test name="boss-api-testing(failed)">
+    <classes>
+      <class name="com.jumtest.test.test">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jumtest.test.test -->
+      <class name="com.jumtest.test.taxService.GetTaxGroupWithMenuTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jumtest.test.taxService.GetTaxGroupWithMenuTest -->
+      <class name="com.jumtest.test.video.ListShopFieldTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="testListShopField_rouyuan" invocation-numbers="0 1"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jumtest.test.video.ListShopFieldTest -->
+      <class name="com.jumtest.testbase.TestBase">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jumtest.testbase.TestBase -->
+      <class name="com.jumtest.test.video.test">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jumtest.test.video.test -->
+    </classes>
+  </test> <!-- boss-api-testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

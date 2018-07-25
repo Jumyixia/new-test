@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - boss-api-testing</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>boss-api-testing</h1>
+<p>
+  Test duration: 66.584s
+</p>
+
+
+
+  <table class="resultsTable">
+      <thead>
+        <tr onclick="toggleShow('fail_tests')">
+            <th colspan="6" class="header failed">Failed Tests</th>
+        </tr>
+      </thead>
+      <tbody id="fail_tests" style="display: '';">
+                      <tr>
+              <td colspan="6" class="group white-space class-name">com.jumtest.test.video.ListShopFieldTest</td>
+            </tr>
+            <tr onclick="toggleShow('fail_test_com.jumtest.test.video.ListShopFieldTest')">
+              <td colspan="1" class="group method white-space">testMethod</td>
+              <td colspan="1" class="group duration white-space">Duration</td>
+              <td colspan="1" class="group caseid white-space">caseid</td>
+              <td colspan="1" class="group description white-space">description</td>
+              <td colspan="1" class="group param white-space">param</td>
+              <td colspan="1" class="group logOut white-space">logOut</td>
+            </tr>
+                        
+<tr>
+  <td class="method">
+                  testListShopField_rouyuan
+      </td>
+    <td class="duration">
+      0.745s
+    </td>
+    <td class="caseid">
+      1
+    </td>
+    <td class="bottomLine auto-wrap">
+      店家宣传视频
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+          <i>Method arguments: </i><span class="arguments">{caseid=1, description=店家宣传视频, biz_type=0, filter={"pageIndex":1,"moduleType":0,"type":0}, exp_code=1, msg=}</span><br />
+
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: 返回code和预期不一致 expected [1] but found [0]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              org.testng.Assert.failNotEquals(Assert.java:513)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:135)<br />
+              org.testng.Assert.assertEquals(Assert.java:116)<br />
+              com.jumtest.test.video.ListShopFieldTest.testListShopField_rouyuan(ListShopFieldTest.java:63)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:197)<br />
+              org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)<br />
+              org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:209)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:268)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.run(TestNG.java:1064)<br />
+              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testListShopField_rouyuan
+      </td>
+    <td class="duration">
+      0.035s
+    </td>
+    <td class="caseid">
+      2
+    </td>
+    <td class="bottomLine auto-wrap">
+      商品视频
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+          <i>Method arguments: </i><span class="arguments">{caseid=2, description=商品视频, biz_type=1, filter={"pageIndex":1,"moduleType":0,"type":0}, exp_code=1, msg=}</span><br />
+
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: 返回code和预期不一致 expected [1] but found [0]</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              org.testng.Assert.failNotEquals(Assert.java:513)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:135)<br />
+              org.testng.Assert.assertEquals(Assert.java:116)<br />
+              com.jumtest.test.video.ListShopFieldTest.testListShopField_rouyuan(ListShopFieldTest.java:63)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:197)<br />
+              org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)<br />
+              org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:209)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:268)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.run(TestNG.java:1064)<br />
+              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+                </div>
+      </td>
+</tr>
+                </tbody>
+  </table>
+
+
+
+<table class="resultsTable">
+    <thead>
+      <tr onclick="toggleShow('passed_tests')">
+          <th colspan="6" class="header passed">Passed Tests</th>
+      </tr>
+    </thead>
+    <tbody id="passed_tests" style="display: '';">
+              <tr>
+          <td colspan="6" class="group white-space  class-name" >com.jumtest.test.taxService.GetTaxGroupWithMenuTest</td>
+        </tr>
+        <tr>
+            <td colspan="1" class="group method white-space">testMethod</td>
+            <td colspan="1" class="group duration white-space">Duration</td>
+            <td colspan="1" class="group caseid white-space">caseid</td>
+            <td colspan="1" class="group description white-space">description</td>
+            <td colspan="1" class="group param white-space">param</td>
+            <td colspan="1" class="group logOut white-space">logOut</td>
+        </tr>
+            
+<tr>
+  <td class="method">
+                  testGetTaxGroupWithMenu_ryuan
+      </td>
+    <td class="duration">
+      1.091s
+    </td>
+    <td class="caseid">
+      1
+    </td>
+    <td class="bottomLine auto-wrap">
+      正常流：分组下商品为空
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+          <i>Method arguments: </i><span class="arguments">{caseid=1, description=正常流：分组下商品为空, entityId=99932248, brandEntityId=99932371, GroupId=329691655001196198, expect=true, message=}</span><br />
+
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testGetTaxGroupWithMenu_ryuan
+      </td>
+    <td class="duration">
+      0.044s
+    </td>
+    <td class="caseid">
+      2
+    </td>
+    <td class="bottomLine auto-wrap">
+      正常流：分组下有一个商品
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+          <i>Method arguments: </i><span class="arguments">{caseid=2, description=正常流：分组下有一个商品, entityId=99932248, brandEntityId=99932371, GroupId=329691655001196199, expect=true, message=}</span><br />
+
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testGetTaxGroupWithMenu_ryuan
+      </td>
+    <td class="duration">
+      1.341s
+    </td>
+    <td class="caseid">
+      3
+    </td>
+    <td class="bottomLine auto-wrap">
+      正常流：分组下有多个商品
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+          <i>Method arguments: </i><span class="arguments">{caseid=3, description=正常流：分组下有多个商品, entityId=99932248, brandEntityId=99932371, GroupId=329688224316375043, expect=true, message=}</span><br />
+
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testGetTaxGroupWithMenu_ryuan
+      </td>
+    <td class="duration">
+      0.019s
+    </td>
+    <td class="caseid">
+      4
+    </td>
+    <td class="bottomLine auto-wrap">
+      异常流：分组groupid不正确
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+          <i>Method arguments: </i><span class="arguments">{caseid=4, description=异常流：分组groupid不正确, entityId=99932248, brandEntityId=99932371, GroupId=111, expect=false, message=}</span><br />
+
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  test1
+      </td>
+    <td class="duration">
+      0.000s
+    </td>
+    <td class="caseid">
+      
+    </td>
+    <td class="bottomLine auto-wrap">
+      
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+        
+
+      </td>
+</tr>
+            <tr>
+          <td colspan="6" class="group white-space  class-name" >com.jumtest.test.test</td>
+        </tr>
+        <tr>
+            <td colspan="1" class="group method white-space">testMethod</td>
+            <td colspan="1" class="group duration white-space">Duration</td>
+            <td colspan="1" class="group caseid white-space">caseid</td>
+            <td colspan="1" class="group description white-space">description</td>
+            <td colspan="1" class="group param white-space">param</td>
+            <td colspan="1" class="group logOut white-space">logOut</td>
+        </tr>
+            
+<tr>
+  <td class="method">
+                  test1
+      </td>
+    <td class="duration">
+      0.000s
+    </td>
+    <td class="caseid">
+      
+    </td>
+    <td class="bottomLine auto-wrap">
+      
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  test
+      </td>
+    <td class="duration">
+      0.041s
+    </td>
+    <td class="caseid">
+      
+    </td>
+    <td class="bottomLine auto-wrap">
+      
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+        
+
+      </td>
+</tr>
+            <tr>
+          <td colspan="6" class="group white-space  class-name" >com.jumtest.test.video.ListShopFieldTest</td>
+        </tr>
+        <tr>
+            <td colspan="1" class="group method white-space">testMethod</td>
+            <td colspan="1" class="group duration white-space">Duration</td>
+            <td colspan="1" class="group caseid white-space">caseid</td>
+            <td colspan="1" class="group description white-space">description</td>
+            <td colspan="1" class="group param white-space">param</td>
+            <td colspan="1" class="group logOut white-space">logOut</td>
+        </tr>
+            
+<tr>
+  <td class="method">
+                  test1
+      </td>
+    <td class="duration">
+      0.020s
+    </td>
+    <td class="caseid">
+      
+    </td>
+    <td class="bottomLine auto-wrap">
+      
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+        
+
+      </td>
+</tr>
+            <tr>
+          <td colspan="6" class="group white-space  class-name" >com.jumtest.test.video.test</td>
+        </tr>
+        <tr>
+            <td colspan="1" class="group method white-space">testMethod</td>
+            <td colspan="1" class="group duration white-space">Duration</td>
+            <td colspan="1" class="group caseid white-space">caseid</td>
+            <td colspan="1" class="group description white-space">description</td>
+            <td colspan="1" class="group param white-space">param</td>
+            <td colspan="1" class="group logOut white-space">logOut</td>
+        </tr>
+            
+<tr>
+  <td class="method">
+                  test1
+      </td>
+    <td class="duration">
+      0.001s
+    </td>
+    <td class="caseid">
+      
+    </td>
+    <td class="bottomLine auto-wrap">
+      
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  test
+      </td>
+    <td class="duration">
+      0.006s
+    </td>
+    <td class="caseid">
+      
+    </td>
+    <td class="bottomLine auto-wrap">
+      
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+            <div class="testOutput">
+                        测试完成<br />
+                  </div>
+    
+
+      </td>
+</tr>
+            <tr>
+          <td colspan="6" class="group white-space  class-name" >com.jumtest.testbase.TestBase</td>
+        </tr>
+        <tr>
+            <td colspan="1" class="group method white-space">testMethod</td>
+            <td colspan="1" class="group duration white-space">Duration</td>
+            <td colspan="1" class="group caseid white-space">caseid</td>
+            <td colspan="1" class="group description white-space">description</td>
+            <td colspan="1" class="group param white-space">param</td>
+            <td colspan="1" class="group logOut white-space">logOut</td>
+        </tr>
+            
+<tr>
+  <td class="method">
+                  test1
+      </td>
+    <td class="duration">
+      0.001s
+    </td>
+    <td class="caseid">
+      
+    </td>
+    <td class="bottomLine auto-wrap">
+      
+    </td>
+  <td class="bottomLine auto-wrap">
+        
+    
+  </td>
+
+    <td class="bottomLine auto-wrap">
+        
+
+      </td>
+</tr>
+        </tbody>
+</table>
+</body>
+</html>
