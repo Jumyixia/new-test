@@ -40,20 +40,20 @@
         <property name="connectionInitSqls" value="set names utf8mb4" />
     </bean>
 
-    <!--item druid -->
-    <bean name="itemDataSource" class="com.alibaba.druid.pool.DruidDataSource"
+    <!--new_item druid -->
+    <bean name="new_itemDataSource" class="com.alibaba.druid.pool.DruidDataSource"
           lazy-init="false" init-method="init" destroy-method="close">
         <property name="driverClassName">
-            <value>${item.jdbc.driver}</value>
+            <value>${new_item.jdbc.driver}</value>
         </property>
         <property name="url">
-            <value>${item.jdbc.url}</value>
+            <value>${new_item.jdbc.url}</value>
         </property>
         <property name="username">
-            <value>${item.jdbc.username}</value>
+            <value>${new_item.jdbc.username}</value>
         </property>
         <property name="password">
-            <value>${item.jdbc.password}</value>
+            <value>${new_item.jdbc.password}</value>
         </property>
         <!-- 配置初始化大小、最小、最大 -->
         <property name="initialSize" value="50" />
@@ -148,20 +148,20 @@
         <property name="connectionInitSqls" value="set names utf8mb4" />
     </bean>
 
-    <!--item_center druid -->
-    <bean name="itemcenterDataSource" class="com.alibaba.druid.pool.DruidDataSource"
+    <!--new_item druid -->
+    <bean name="itemDataSource" class="com.alibaba.druid.pool.DruidDataSource"
           lazy-init="false" init-method="init" destroy-method="close">
         <property name="driverClassName">
-            <value>${item_center.jdbc.driver}</value>
+            <value>${new_item.jdbc.driver}</value>
         </property>
         <property name="url">
-            <value>${item_center.jdbc.url}</value>
+            <value>${new_item.jdbc.url}</value>
         </property>
         <property name="username">
-            <value>${item_center.jdbc.username}</value>
+            <value>${new_item.jdbc.username}</value>
         </property>
         <property name="password">
-            <value>${item_center.jdbc.password}</value>
+            <value>${new_item.jdbc.password}</value>
         </property>
         <!-- 配置初始化大小、最小、最大 -->
         <property name="initialSize" value="50" />
